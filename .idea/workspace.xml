@@ -9,6 +9,8 @@
     <list default="true" id="2e593e39-a2fc-49d4-98d2-6006e3fac7b1" name="Default" comment="新增518国际量子峰会最新动态。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/人员构成.html" beforeDir="false" afterPath="$PROJECT_DIR$/人员构成.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/超导量子模拟.html" beforeDir="false" afterPath="$PROJECT_DIR$/超导量子模拟.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,26 +21,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="超导量子模拟.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="超导量子模拟.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/超导量子模拟.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
+            <state relative-caret-position="340">
+              <caret line="51" column="116" selection-start-line="51" selection-start-column="116" selection-end-line="51" selection-end-column="116" />
+              <folding>
+                <element signature="e#1144#1178#0" expanded="true" />
+                <element signature="e#1233#1318#0" expanded="true" />
+                <element signature="e#1258#1290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="136">
+              <caret line="153" column="1" lean-forward="true" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
               <folding>
                 <element signature="e#5088#5136#0" expanded="true" />
                 <element signature="e#8896#8968#0" expanded="true" />
                 <element signature="e#8988#9055#0" expanded="true" />
                 <element signature="e#9062#9100#0" expanded="true" />
                 <element signature="e#9220#9279#0" expanded="true" />
+                <element signature="e#8983#9050#0" expanded="true" />
+                <element signature="e#9057#9095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="研究进展.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/研究进展.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding>
+                <element signature="e#1254#1288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="人员构成.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/人员构成.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="200" column="14" selection-start-line="196" selection-start-column="8" selection-end-line="200" selection-end-column="14" />
+              <folding>
+                <element signature="e#1234#1298#0" expanded="true" />
+                <element signature="e#1306#1363#0" expanded="true" />
+                <element signature="e#1378#1469#0" expanded="true" />
+                <element signature="e#1894#1979#0" expanded="true" />
+                <element signature="e#2250#2335#0" expanded="true" />
+                <element signature="e#2766#2831#0" expanded="true" />
+                <element signature="e#2838#2895#0" expanded="true" />
+                <element signature="e#2913#3004#0" expanded="true" />
+                <element signature="e#3022#3089#0" expanded="true" />
+                <element signature="e#3152#3194#0" expanded="true" />
+                <element signature="e#3211#3252#0" expanded="true" />
+                <element signature="e#7857#7921#0" expanded="true" />
+                <element signature="e#7939#7996#0" expanded="true" />
+                <element signature="e#8019#8110#0" expanded="true" />
+                <element signature="e#8140#8207#0" expanded="true" />
+                <element signature="e#8270#8312#0" expanded="true" />
+                <element signature="e#8329#8370#0" expanded="true" />
+                <element signature="e#8107#8199#0" expanded="true" />
+                <element signature="e#8204#8280#0" expanded="true" />
+                <element signature="e#8297#8407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +103,7 @@
       <find>arXiv:1709.10201</find>
       <find>最新</find>
       <find>arXiv</find>
+      <find>王光</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,9 +113,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/研究进展.html" />
-        <option value="$PROJECT_DIR$/人员构成.html" />
         <option value="$PROJECT_DIR$/欢迎加入.html" />
+        <option value="$PROJECT_DIR$/人员构成.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/超导量子模拟.html" />
       </list>
     </option>
   </component>
@@ -89,12 +143,7 @@
             <path>
               <item name="qubitnju.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="qubitnju.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qubitnju.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qubitnju.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575616227627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增518国际量子峰会最新动态。">
+      <created>1575950002156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575950002156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -245,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了最新动态字体颜色" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了最新动态字体颜色" />
+    <MESSAGE value="新增518国际量子峰会最新动态。" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增518国际量子峰会最新动态。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JS/jquery.flexslider.js">
@@ -297,6 +354,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="221" column="9" lean-forward="true" selection-start-line="221" selection-start-column="9" selection-end-line="221" selection-end-column="9" />
+          <folding>
+            <element signature="e#1234#1298#0" expanded="true" />
+            <element signature="e#1306#1363#0" expanded="true" />
+            <element signature="e#1378#1469#0" expanded="true" />
+            <element signature="e#1894#1979#0" expanded="true" />
+            <element signature="e#2250#2335#0" expanded="true" />
+            <element signature="e#2766#2831#0" expanded="true" />
+            <element signature="e#2838#2895#0" expanded="true" />
+            <element signature="e#2913#3004#0" expanded="true" />
+            <element signature="e#3022#3089#0" expanded="true" />
+            <element signature="e#3152#3194#0" expanded="true" />
+            <element signature="e#3211#3252#0" expanded="true" />
+            <element signature="e#7857#7921#0" expanded="true" />
+            <element signature="e#7939#7996#0" expanded="true" />
+            <element signature="e#8019#8110#0" expanded="true" />
+            <element signature="e#8140#8207#0" expanded="true" />
+            <element signature="e#8270#8312#0" expanded="true" />
+            <element signature="e#8329#8370#0" expanded="true" />
+            <element signature="e#8107#8199#0" expanded="true" />
+            <element signature="e#8204#8280#0" expanded="true" />
+            <element signature="e#8297#8407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -310,14 +389,9 @@
             <element signature="e#8988#9055#0" expanded="true" />
             <element signature="e#9062#9100#0" expanded="true" />
             <element signature="e#9220#9279#0" expanded="true" />
+            <element signature="e#8983#9050#0" expanded="true" />
+            <element signature="e#9057#9095#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/超导量子模拟.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -338,6 +412,8 @@
             <element signature="e#8988#9055#0" expanded="true" />
             <element signature="e#9062#9100#0" expanded="true" />
             <element signature="e#9220#9279#0" expanded="true" />
+            <element signature="e#8983#9050#0" expanded="true" />
+            <element signature="e#9057#9095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -446,6 +522,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="219" column="35" lean-forward="true" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
+          <folding>
+            <element signature="e#1234#1298#0" expanded="true" />
+            <element signature="e#1306#1363#0" expanded="true" />
+            <element signature="e#1378#1469#0" expanded="true" />
+            <element signature="e#1894#1979#0" expanded="true" />
+            <element signature="e#2250#2335#0" expanded="true" />
+            <element signature="e#2766#2831#0" expanded="true" />
+            <element signature="e#2838#2895#0" expanded="true" />
+            <element signature="e#2913#3004#0" expanded="true" />
+            <element signature="e#3022#3089#0" expanded="true" />
+            <element signature="e#3152#3194#0" expanded="true" />
+            <element signature="e#3211#3252#0" expanded="true" />
+            <element signature="e#7857#7921#0" expanded="true" />
+            <element signature="e#7939#7996#0" expanded="true" />
+            <element signature="e#8019#8110#0" expanded="true" />
+            <element signature="e#8140#8207#0" expanded="true" />
+            <element signature="e#8270#8312#0" expanded="true" />
+            <element signature="e#8329#8370#0" expanded="true" />
+            <element signature="e#8107#8199#0" expanded="true" />
+            <element signature="e#8204#8280#0" expanded="true" />
+            <element signature="e#8297#8407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,6 +564,8 @@
             <element signature="e#8988#9055#0" expanded="true" />
             <element signature="e#9062#9100#0" expanded="true" />
             <element signature="e#9220#9279#0" expanded="true" />
+            <element signature="e#8983#9050#0" expanded="true" />
+            <element signature="e#9057#9095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,6 +580,8 @@
             <element signature="e#8988#9055#0" expanded="true" />
             <element signature="e#9062#9100#0" expanded="true" />
             <element signature="e#9220#9279#0" expanded="true" />
+            <element signature="e#8983#9050#0" expanded="true" />
+            <element signature="e#9057#9095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,28 +688,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/人员构成.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="219" column="35" lean-forward="true" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/研究进展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="494">
+          <caret line="200" column="14" selection-start-line="196" selection-start-column="8" selection-end-line="200" selection-end-column="14" />
+          <folding>
+            <element signature="e#1234#1298#0" expanded="true" />
+            <element signature="e#1306#1363#0" expanded="true" />
+            <element signature="e#1378#1469#0" expanded="true" />
+            <element signature="e#1894#1979#0" expanded="true" />
+            <element signature="e#2250#2335#0" expanded="true" />
+            <element signature="e#2766#2831#0" expanded="true" />
+            <element signature="e#2838#2895#0" expanded="true" />
+            <element signature="e#2913#3004#0" expanded="true" />
+            <element signature="e#3022#3089#0" expanded="true" />
+            <element signature="e#3152#3194#0" expanded="true" />
+            <element signature="e#3211#3252#0" expanded="true" />
+            <element signature="e#7857#7921#0" expanded="true" />
+            <element signature="e#7939#7996#0" expanded="true" />
+            <element signature="e#8019#8110#0" expanded="true" />
+            <element signature="e#8140#8207#0" expanded="true" />
+            <element signature="e#8270#8312#0" expanded="true" />
+            <element signature="e#8329#8370#0" expanded="true" />
+            <element signature="e#8107#8199#0" expanded="true" />
+            <element signature="e#8204#8280#0" expanded="true" />
+            <element signature="e#8297#8407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="136">
+          <caret line="153" column="1" lean-forward="true" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
           <folding>
             <element signature="e#5088#5136#0" expanded="true" />
             <element signature="e#8896#8968#0" expanded="true" />
             <element signature="e#8988#9055#0" expanded="true" />
             <element signature="e#9062#9100#0" expanded="true" />
             <element signature="e#9220#9279#0" expanded="true" />
+            <element signature="e#8983#9050#0" expanded="true" />
+            <element signature="e#9057#9095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/研究进展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="e#1254#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/超导量子模拟.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="51" column="116" selection-start-line="51" selection-start-column="116" selection-end-line="51" selection-end-column="116" />
+          <folding>
+            <element signature="e#1144#1178#0" expanded="true" />
+            <element signature="e#1233#1318#0" expanded="true" />
+            <element signature="e#1258#1290#0" expanded="true" />
           </folding>
         </state>
       </provider>
