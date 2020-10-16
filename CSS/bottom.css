@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+footer {
+    min-width: 800px;
+	width: 100%;
+	background-color:darkslateblue;
+    background-image: url(../picture/6.jpg)
+	}
+
+#contactus{
+	color: #FFF;
+	font-size: 18px;
+/*	width: 100px;*/
+	margin-left: 28%;
+	font-family: "微软雅黑";
+	font-weight: 400;
+    display: inline;
+	}
+#friendlink{
+	color: #FFF;
+	font-size: 18px;
+/*	width: 100px;*/
+	margin-left: 27%;
+	font-family: "微软雅黑";
+	font-weight: 400;
+    display: inline;
+
+	}
+#分割线{
+    width:100%;
+    height:2px;
+    margin:0;
+    background-color:#999;
+    margin-top:10px
+}
+nav#address{
+    display: inline;
+    float: left;
+    width: 45%;
+}	
+#address ul{
+	list-style-type:none;
+	margin:0px;
+	margin-top:20px;
+    text-align: left;
+    float: right;
+/*    padding-left: 50%;*/
+	}
+#address ul li{
+	font-size:15px;
+	color:#CCC;
+	font-family:"微软雅黑";
+	line-height:39px;
+/*	margin-left:15%;*/
+/*    margin-right: 0;*/
+	}	
+nav#link{
+    display: inline;
+    margin-top: 0;
+    float: left;
+    width: 40%;
+    padding-left: 15%;
+}
+#link ul{
+	list-style-type:none;
+	margin:0px;
+    display:inline;
+	}
+nav#link ul li{
+	font-size:16px;
+	color:#CCC;
+	font-family:"微软雅黑";
+	line-height:39px;
+	}	
+	
+#link ul li a{
+	text-decoration:none;
+	color:#CCC
+	}
+
+#版权{
+    color:#CCC;
+    text-align:center;
+    font-size:12px;
+    margin-top:280px;
+    padding-bottom: 50px;
+    font-family:arial;
+}
+
+
+
+body {
+	background-color: white;
+	background-repeat: repeat-x;
+	color: #050505;
+	text-shadow: 1px 0px;
+}

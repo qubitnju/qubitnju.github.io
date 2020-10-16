@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#title{
+	font-size:x-large;
+	font-weight:bold;
+	line-height:140%;
+	}
+
+#authors{
+	font-size:medium;
+	margin-top:0.5em;
+	margin-right:2em;
+	margin-bottom:0.5em;
+	line-height:150%;
+	}
+	
+#outline{
+	width:80%;
+    margin: 5% 10%;	
+	}
+	
+#dateline{
+	font-style:italic;
+	font-size:small;
+	}
+	
+#abstract{
+	line-height:140%;
+	margin-bottom:1.5em;
+	font-size:90%;
+	text-indent:2em;
+	}
+
+#cite{
+	font-size:90%;
+	}
+
+#arx{
+	font-weight:bold;
+	font-size:90%;
+	text-indent: 2em;
+	}
+
+#arx a{
+	text-decoration:none;
+	}
+#arx a:hover{ 
+    text-decoration:underline;
+    }

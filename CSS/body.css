@@ -1,0 +1,264 @@
+body {
+        font-size: 12pt;
+        color: #000000;
+/*        background-image: url(picture/bg1.jpg);*/
+        background-color: white;
+        max-width: 100%;
+        min-width: 772px;
+        height: 100%;
+        padding:0px;
+        margin:0px;
+        border:0px;
+        background-color: rgb（248，255，250）;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    h2 {
+        font-size: large;
+    }
+    .热点工作 {
+        font-family: "华文细黑";
+        font-weight: bold;
+    }
+section#bgpic1{
+    width: 100%;
+    min-width: 80%;
+    height: 370px;
+    background-image: url(../picture/bgpic1.png);
+    background-size:cover;
+/*
+    background-repeat: no-repeat;
+    background-attachment:local;
+*/
+/*    margin-top: -50px; */
+}
+section#bgpic2{
+    width: 100%;
+    height: 380px;
+    background-color: rgba(230,255,204,0.4);
+}
+div#qulab{
+    color:black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    width: 100%; 
+    height: auto;
+}
+h1#qulab{
+    font-size: 60px;
+    width: auto;
+    margin-left: 10%;
+    margin-top: 0px;
+/*    margin-bottom: 5px;*/
+}
+div#xh>img{
+    float: left;
+    margin-left: 18%;
+}
+div#bloch>img{
+    margin-left: 35%;
+}
+section.tubiao{
+    margin-top: 60px;
+    width: 100%;
+    clear: both;
+    height: auto;
+    background-color:rgb(248,255,255);
+    padding: 20px 10%;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    min-width: 772px;
+    text-align: center;
+
+}
+section#slider-top{
+    width:100%;
+    min-width: 772px;
+/*    height:140px;*/
+/*    margin:auto;*/
+    background-color: mintcream;
+}
+
+main{
+    width:100%;
+    height:auto;
+}
+div.sec1{
+    width: 50%;
+    height: 40vw;
+    float: left;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div.sec2{
+    width:100%;
+/*    height: 40vw;*/
+    padding-left: 25%;
+    padding-top: 10%;
+    float: left;
+    box-sizing:border-box;
+    
+}
+/*
+div#middle-slider{
+    width:100%;
+    height: 30vw;
+    padding-top:5%;
+
+    align-content: center;
+    text-align: center;
+
+}
+*/
+div.bloch{
+    width: 100%;
+/*    padding-right: 5%;*/
+    float: right;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+
+section.lastest{
+    width: 100%;
+    background-color: rgb(50,50,50);
+    margin-top: 10%;
+}
+section.dongtai{
+/*    border-style: dashed;*/
+/*    height: 10vw;*/
+}
+p#newest{
+    font-family:sans-serif;
+    font-size:50px;
+    color:dodgerblue;
+    text-align:center;
+/*    padding: 10px auto;;*/
+    padding-top: 25px;
+/*    word-spacing: 20px;*/
+    letter-spacing: 40px;
+}
+section.newest{
+    width:100%;
+    height:30vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+/*    float: left;*/
+/*    border: dashed 5px;*/
+/*    margin-top: 20px;*/
+}
+section#new1{
+    background: #F1F1F3;
+}
+section#new2{
+    background:#FBFBFD;
+}
+section#new3{
+    background: #F1F1F3;
+}
+div.newset{
+    width: 50%;
+    display: inline;
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+img.newest{
+    float: left;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 2.5%;
+}
+div#new2{
+    width: 50%;
+/*    height:500px;*/
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 5%;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+article.newest{
+    width: 50%;
+    height:25vw;
+    text-align:justify;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 5%;
+    padding-left: 2.5%;
+    overflow: scroll;
+}
+article#new2{
+    width: 50%;
+    height:25vw;
+    display: inline; 
+    text-align:justify;
+    float: left;
+    box-sizing: border-box;
+    overflow: scroll;
+    padding-left: 5%;
+    padding-right: 2.5%;
+
+}
+
+p.newest{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-indent: 2em;
+    
+}
+p#new2{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-indent: 2em;
+    
+}
+
+div.newblock{
+    width: 100%;
+    height: 20px;
+    background: white;
+}
+/*
+article#new2{
+    width: 42%;
+    height:500px;
+    float: left;
+    display: inline;
+    padding-left: 10%;
+    
+}
+*/
+/*
+section#new2{
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+    background-color: black;
+}
+*/
+/*
+section#new3{
+    width:100%;
+    height:auto;
+    background-color: black;
+}
+*/
+
+/*
+img.newest{
+    text-align: center;
+    float: inherit ;
+    align-self: center;
+}
+*/
+
