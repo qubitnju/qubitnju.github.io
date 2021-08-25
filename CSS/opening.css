@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@ canvas {
 a {
     position: absolute;
     top: 33%;
-    left: 50%;
+    left: 52%;
     margin-left: -350px;
     color: yellow;
     /*color:lightyellow;*/
@@ -25,7 +27,7 @@ a {
     --color5: lightpink;
 
     font-family: Monoton;
-    font-size: 66px;
+    font-size: 60px;
     --interval: 1.5s;
     display: block;
     text-shadow: 0 0 8px var(--color1),
