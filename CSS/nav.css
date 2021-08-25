@@ -1,0 +1,128 @@
+/*通用样式*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix:after {
+    content: "";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.clearFix {
+    display: inline-block;
+    zoom: 1;
+}
+
+.clearFix {
+    display: block
+}
+
+li {
+    list-style: none;
+}
+
+.con {
+    width: 100px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.fieldset-w {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fieldset-con {
+    margin: 0 auto;
+    padding: 10px 0;
+    border-width: 1px 0 0;
+}
+
+.fieldset-con legend {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*本例样式*/
+.nav-wrap {
+    width: 100%;
+    height: 62px;
+}
+
+.mouse-follow-nav {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.nav-list-w {
+    position: relative;
+}
+
+.nav-shoe-wrap .nav-list {
+    height: 62px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #607D8B;
+    z-index: 99;
+    padding-right: 10px;
+}
+
+.mouse-follow-nav .nav-list li {
+    float: left;
+    width: auto;
+    height: 62px;
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+    z-index: 99;
+}
+
+.mouse-follow-nav .nav-list li a {
+    float: left;
+    padding: 0 10px;
+    line-height: 62px;
+    font-size: 20px;
+    /*font-family: "Microsoft YaHei";*/
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+}
+
+/*滑块*/
+.mouse-follow-nav .sliding-block {
+    background-color: #2ebb96;
+}
+
+.mouse-follow-nav .sliding-block-1 {
+    background-color: #2ebb96;
+}
+
+#nav_0 .sliding-block {
+    background-color: #2ebb96;
+}
+
+#nav_3 .sliding-block {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#nav_4 .sliding-block {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}

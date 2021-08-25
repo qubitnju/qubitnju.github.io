@@ -1,0 +1,90 @@
+:root {
+    --green: #37c4b1;
+    --cyan: #25aad8;
+    --blue: #4092e3;
+    --purple: #7d54c1;
+    --pink: #c776a3;
+    --orange: #ee8877;
+    --deep-purple: #281c4c;
+    --duration: 0.7s;
+    --ease: cubic-bezier(0.6, 0, 0.2, 1);
+    --transition: transform var(--duration) var(--ease);
+}
+
+/**,*/
+/**:before,*/
+/**:after {*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*}*/
+
+
+@-webkit-keyframes tipsy {
+0 {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+}
+100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+}
+}
+
+@keyframes tipsy {
+0 {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+}
+100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+}
+}
+
+
+a#solgan {
+    color: #fffbf1;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    top: 35%;
+    left: 30%;
+
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+a#solgan:before,
+a#solgan:after {
+    content: '';
+    padding: .9em .4em;
+    position: absolute;
+    left: 50%;
+    width: 85%;
+    top: 50%;
+    display: block;
+    border: 15px solid red;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    -webkit-animation: 10s infinite alternate ease-in-out tipsy;
+    animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+a#solgan:before {
+    border-color: #afa #afa rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+
+a#solgan:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #faa #faa;
+    -webkit-box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}

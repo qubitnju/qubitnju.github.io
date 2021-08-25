@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+
+a {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    margin-left: -350px;
+    color: yellow;
+    /*color:lightyellow;*/
+    /*--color1: yellow;*/
+    --color1: lightyellow;
+    /*--color2: lime;*/
+    --color2: #A5FFB2;
+
+    --color3: green;
+    --color4: darkgreen;
+    --color5: lightpink;
+
+    font-family: Monoton;
+    font-size: 66px;
+    --interval: 1.5s;
+    display: block;
+    text-shadow: 0 0 8px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4),
+    0 0 60px var(--color5);
+
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+}
+
+
+@keyframes flicker {
+    50% {
+        color: white;
+        filter: saturate(200%) hue-rotate(20deg);
+    }
+}

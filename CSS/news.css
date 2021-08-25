@@ -1,0 +1,129 @@
+* {
+    font-family: "Lato", sans-serif;
+    position: relative;
+}
+
+
+body {
+    background: mintcream;
+    min-width: 663px;
+
+}
+
+.item0 {
+    grid-area: 1/1/3/5;
+    background-color: black;
+}
+
+@media (min-width: 1020px) {
+
+    .item1 {
+        grid-area: 1/1/3/2;
+    }
+
+    .item2 {
+        grid-area: 1/2/2/5;
+        place-self: center;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .item1 {
+        grid-area: 1/1/1/1;
+        visibility: hidden;
+    }
+
+    .item2 {
+        grid-area: 1/1/2/5;
+        place-self: center;
+
+    }
+}
+
+
+div.gridcontainer {
+    display: grid;
+    grid-template-columns:3fr 1fr 2fr 4fr;
+    grid-template-rows: 200px auto auto;
+}
+
+
+
+
+.timeline {
+    padding: 40px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 80px);
+    background: #c0392b;
+}
+
+.timeline .column {
+    margin: 40px 40px 40px 120px;
+}
+
+.timeline .column .title h1 {
+    font-size: 120px;
+    color: rgba(0,0,0,0.1);
+    font-family: serif;
+    letter-spacing: 3px;
+}
+
+.timeline .column .title h1:before {
+    content: "";
+    position: absolute;
+    left: -62px;
+    top: 86px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 3px solid #c0392b;
+}
+
+.timeline .column .title h2 {
+    margin-top: -60px;
+    font-size: 33px;
+}
+
+
+
+div.description{
+    max-height: 200px;
+    overflow: scroll;
+}
+
+
+.timeline .column .description a {
+    font-size: 13pt;
+    line-height: 1.5;
+    font-family: serif;
+    text-decoration: none;
+    color: #496aff;
+}
+
+.timeline .column .description a:hover{
+    color: #a9a6ff;
+}
+
+
+.timeline .column .description {
+    border-left: 1px solid #000;
+}
+
+
+.timeline .column .description a p{
+    margin-left: 5px;
+    text-indent: 2em;
+}
+
+

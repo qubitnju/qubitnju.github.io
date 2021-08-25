@@ -1,0 +1,211 @@
+body {
+    /*background-color: rgba(191, 194, 198, 0.5);*/
+    min-width: 663px;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 15pt;
+}
+
+
+.item0 {
+    grid-area: 1/1/3/5;
+    background-color: black;
+}
+
+
+@media (min-width: 1020px) {
+
+    .item1 {
+        grid-area: 1/1/3/2;
+    }
+
+    .item2 {
+        grid-area: 1/2/2/5;
+        place-self: center;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .item1 {
+        grid-area: 1/1/1/1;
+        visibility: hidden;
+    }
+
+    .item2 {
+        grid-area: 1/1/2/5;
+        place-self: center;
+
+    }
+}
+
+
+.item3 {
+    grid-area: 3/1/4/5;
+    /* background-color: rgba(191, 194, 198, 0.5); */
+    /*padding: 15px;*/
+    height:50px;
+}
+
+.item4 {
+    grid-area: 4/1/5/5;
+    font-family: "Lato", sans-serif;
+
+}
+
+.item5 {
+    grid-area: 5/1/6/5;
+    background-color: rgba(30, 30, 30, 0.85);
+    text-align: center;
+
+}
+
+
+div.gridcontainer {
+    display: grid;
+    grid-template-columns:3fr 1fr 2fr 4fr;
+    grid-template-rows: 200px auto auto auto 100px;
+    grid-gap: 10px;
+
+}
+
+
+div#jianjie {
+    width: 80%;
+    background: white;
+    margin: auto;
+    /*border: 2px double lightseagreen;*/
+}
+
+
+div#jianjieneirong {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    font-family: monospace;
+    line-height: 1.5;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+div.time {
+    width: 100%;
+    text-align: center;
+    background: #FBFBFD;
+    margin-top: 50px;
+}
+
+img.time {
+    width: 85%;
+    padding: 50px 5%;
+    margin-bottom: 5%;
+}
+
+
+/*边框设计*/
+
+div.btn_border {
+    display: inline-table;
+    position: relative;
+    z-index: 4;
+    margin: 20px 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn_border {
+    /*border: 2px double seagreen;*/
+    border: none;
+}
+
+
+.btn_border .btn_6_mix, .btn_border .btn_b_6_1:before, .btn_border .btn_b_6_1:after, .btn_border .btn_b_6_2:before, .btn_border .btn_b_6_2:after, .btn_border .btn_b_6_3:before, .btn_border .btn_b_6_3:after, .btn_border .btn_b_6_4:before, .btn_border .btn_b_6_4:after {
+    content: "";
+    position: absolute;
+    background: seagreen;
+    transition: .5s;
+}
+
+.btn_border .btn_b_6_1:before {
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 0;
+}
+
+.btn_border .btn_b_6_1:after {
+    width: 3px;
+    height: 0;
+    left: 0;
+    top: 0;
+}
+
+.btn_border .btn_b_6_2:before {
+    width: 3px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.btn_border .btn_b_6_2:after {
+    width: 0;
+    height: 3px;
+    right: 0;
+    top: 0;
+}
+
+.btn_border .btn_b_6_3:before {
+    width: 100%;
+    height: 3px;
+    right: 0;
+    bottom: 0;
+}
+
+.btn_border .btn_b_6_3:after {
+    width: 3px;
+    height: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.btn_border .btn_b_6_4:before {
+    width: 3px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.btn_border .btn_b_6_4:after {
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
+.btn_border:hover .btn_b_6_1:before,
+.btn_border:hover .btn_b_6_3:before {
+    width: 200px;
+    transition: .5s;
+}
+
+.btn_border:hover .btn_b_6_2:after,
+.btn_border:hover .btn_b_6_4:after {
+    width: 60px;
+    transition: .5s;
+}
+
+.btn_border:hover .btn_b_6_2:before,
+.btn_border:hover .btn_b_6_4:before {
+    height: 200px;
+    transition: .5s;
+}
+
+.btn_border:hover .btn_b_6_1:after,
+.btn_border:hover .btn_b_6_3:after {
+    height: 80px;
+    transition: .5s;
+}
+

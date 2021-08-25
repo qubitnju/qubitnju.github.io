@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Bad Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bad Script Regular'), local('BadScript-Regular'), url(https://fonts.gstatic.com/l/font?kit=6NUT8F6PJgbFWQn47_x7lOkuy91BTJ2OSlEsxVyUW8V_g213G-5OkW40NZ7fjNuhvDerx8Vv3q9UEJS-CuN-HDzmaLm-5CAlW1iLOB-pJ-G0rNIgYPvJ&skey=bab4df51e3e7f1cf&v=v6) format('woff2');
+}
+@font-face {
+    font-family: 'Gruppo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gruppo'), url(https://fonts.gstatic.com/l/font?kit=WwkfxPmzE06v_ZWFXHDGOIA6EPII7eXJKe35RydBDktXLeEa3sXd_HeUuasPie1f_4cD6tTOOKPwqtFmq-SrWMX2lKFWOfeXk3Z6GfasJvgW37M&skey=d88a2af79ed438fb&v=v8) format('woff2');
+}
+@font-face {
+    font-family: 'Kumar One Outline';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kumar One Outline'), local('KumarOneOutline-Regular'), url(https://fonts.gstatic.com/l/font?kit=Noao6VH62pyLP0fsrZ-v18wlUEcX9zD1RQ28EUjEbbU3qe_MW-rwBt7j0nLipacyH736QPDndcEOWVR8v9EiLiUG3aeLEpl4rqhiwCz5wMF61A9Tij57x8V0KLmhCA&skey=2ecb457e319c5c85&v=v2) format('woff2');
+}
+@font-face {
+    font-family: 'League Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('League Script'), local('LeagueScript'), url(https://fonts.gstatic.com/l/font?kit=CSR54zpSlumSWj9CGVsoBZdeaNZUvuwlISqIGwEeaSqSqpH3j4_vPMfGqiav_ieEvdqkZMY9h-2-fyF1POJ3NIEoQG5ZsHAHR7ZFTqE_Qf7fCpz3JAhgCxK4&skey=84dc0ed8164e7f66&v=v8) format('woff2');
+}
+@font-face {
+    font-family: 'Londrina Outline';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Londrina Outline Regular'), local('LondrinaOutline-Regular'), url(https://fonts.gstatic.com/l/font?kit=C8c44dM8vmb14dfsZxhetg3pDH-Sfu8xqyKNJLMIU7QRHgbUgt0OjZQuK8yWTAJX-qT6UPtRqYEwAiC88FBZbGXSTmuLPSparc9ssHheWHgUCxPirqU0Tb3nNCIQ&skey=38835ee470879933&v=v8) format('woff2');
+}
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monoton'), local('Monoton-Regular'), url(https://fonts.gstatic.com/l/font?kit=5h1aiZUrOngCibe4fkPBRWS6Pw5pl0DZX0tg11yUybmkPzt3tsF45M-a6lLi2YDFe4CfeA6nNRqB293oV1TG3u31MuvCpqeGj7Aw1QhEDJWk4T4e&skey=6851b793dcae5a6c&v=v7) format('woff2');
+}
+@font-face {
+    font-family: 'Sriracha';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sriracha'), local('Sriracha-Regular'), url(https://fonts.gstatic.com/l/font?kit=0nkrC9D4IuYBgWcI9ObdRQbioMy1qTKPHzUXYp1ogGFSrwQqPwKW92U50VOo7Tj05KiOaqxI3XBgvmWGTNNtICmKSrcQws4OzojLPAbkggHMOoH0Ew&skey=4c47d248b5dc5112&v=v2) format('woff2');
+}
+@font-face {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Yellowtail Regular'), local('Yellowtail-Regular'), url(https://fonts.gstatic.com/l/font?kit=OZpGg_pnoDtINPfRIlLotlnNxkD_Rcn9iUcmxUpzDEQqaMHO1I-s5LPiMF0BWBEkAfZC2IwpxfB1PI8QrxZAxKEfT1f-nm0shJa5sgo-P05bEGNgqfGv&skey=22fa7c6bface696b&v=v8) format('woff2');
+}
