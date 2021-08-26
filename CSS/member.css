@@ -112,7 +112,7 @@ section#teacher {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 550px;
+    /*height: 550px;*/
 }
 
 div#teacherjianjie{
