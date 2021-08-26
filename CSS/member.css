@@ -126,9 +126,20 @@ div#teacherjianjie{
     line-height: 2;
     text-align: left;
 }
+div#teacherjianjie p.name2{
+    text-indent: -3em;
+    margin-left: 3em;
+}
+div#teacherjianjie p.name3{
+    text-indent: -4em;
+    margin-left: 4em;
+}
+
+
 div#teacherjianjie span{
     font-weight: bold;
 }
+
 
 
 
