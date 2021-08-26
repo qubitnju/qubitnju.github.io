@@ -92,7 +92,7 @@ section.sec3 {
 }
 
 p.sec3 {
-    font-size: 5vmin;
+    font-size: 4vmin;
     color: white;
     text-align: center;
     /*margin: auto 75px;*/
@@ -101,6 +101,12 @@ p.sec3 {
 p.sec3 span:hover {
     color: tomato;
 }
+
+span.line1{
+    font-size: 6vmin;
+}
+
+
 
 section#sec4 {
     width: 100%;
