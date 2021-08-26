@@ -112,8 +112,24 @@ section#teacher {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 550px;
 }
+
+div#teacherjianjie{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    /*border-bottom: 2px solid lightgrey;*/
+    border-left: 1px solid lightgrey;
+    line-height: 2;
+    text-align: left;
+}
+div#teacherjianjie span{
+    font-weight: bold;
+}
+
 
 
 /* 照片特效 */
