@@ -191,16 +191,40 @@ section.card {
 
 section#teacher section.card-box{
     width: 100%;
-    margin-bottom: 2.5%;
+    margin-bottom: 5%;
+    display: inline-flex;
+}
 
-
+div.card-border{
+    float: left;
+    box-sizing: border-box;
+    border-right: 2px solid lightgrey;
+    width:300px;
 }
 
 
 section#teacher section.card{
+    margin: auto;
+}
+
+
+section.text_info{
+    text-align: center;
+}
+
+
+section#teacher section.text_info {
+    text-align: justify;
     float: left;
-    align-items: start;
-    justify-content: start;
+    line-height:2;
+    padding-top: 10px;
+    padding-left: 5%;
+    width: calc(100% - 300px - 40px);
+    /*text-indent: -4em;*/
+    /*margin-left: 4em;*/
+}
+section#teacher section.text_info span{
+    font-weight: bolder;
 }
 
 
@@ -240,17 +264,9 @@ section#teacher section.card{
 }
 
 
-section.text_info {
-    text-align: justify;
-    float: left;
-    line-height:2;
-    padding-left: 5%;
-    /*text-indent: -4em;*/
-    /*margin-left: 4em;*/
-}
-section.text_info span{
-    font-weight: bolder;
-}
+
+
+
 
 
 /* 侧边导航栏 */
