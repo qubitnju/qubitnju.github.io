@@ -110,9 +110,9 @@ div#professorjianjie {
 section#teacher {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    /*height: 550px;*/
+    align-items: start;
+    justify-content: start;
+    margin: 0 5%;
 }
 
 div#teacherjianjie{
@@ -176,7 +176,7 @@ html {
     justify-content: center;
 }
 
-.card {
+section.card {
     width: 240px;
     height: 160px;
     border-radius: 10px;
@@ -188,6 +188,22 @@ html {
     background: rgba(0, 0, 0, 0.2);
     filter: grayscale(0.1) saturate(95%) brightness(95%) contrast(90%);
 }
+
+section#teacher section.card-box{
+    width: 100%;
+    margin-bottom: 2.5%;
+
+
+}
+
+
+section#teacher section.card{
+    float: left;
+    align-items: start;
+    justify-content: start;
+}
+
+
 
 .card:hover {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 0, 0, 0.3);
@@ -225,7 +241,15 @@ html {
 
 
 section.text_info {
-    text-align: center;
+    text-align: justify;
+    float: left;
+    line-height:2;
+    padding-left: 5%;
+    /*text-indent: -4em;*/
+    /*margin-left: 4em;*/
+}
+section.text_info span{
+    font-weight: bolder;
 }
 
 
