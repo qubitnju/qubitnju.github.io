@@ -98,8 +98,8 @@ div.gridcontainer {
 
 
 div.description{
-    max-height: 200px;
-    overflow: auto;
+    /*max-height: 200px;*/
+    /*overflow: auto;*/
 }
 
 
