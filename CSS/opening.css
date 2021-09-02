@@ -14,7 +14,7 @@ a {
     position: absolute;
     top: 33%;
     left: 50%;
-    margin-left: -27.5vw;
+    margin-left: -33vw;
     color: yellow;
     /*color:lightyellow;*/
     /*--color1: yellow;*/
@@ -27,7 +27,7 @@ a {
     --color5: lightpink;
 
     font-family: Monoton;
-    font-size: 5vw;
+    font-size: 6vw;
     --interval: 1.5s;
     display: block;
     text-shadow: 0 0 8px var(--color1),
