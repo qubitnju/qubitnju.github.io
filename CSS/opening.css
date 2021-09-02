@@ -13,8 +13,8 @@ canvas {
 a {
     position: absolute;
     top: 33%;
-    left: 52%;
-    margin-left: -350px;
+    left: 50%;
+    margin-left: -27.5vw;
     color: yellow;
     /*color:lightyellow;*/
     /*--color1: yellow;*/
@@ -27,7 +27,7 @@ a {
     --color5: lightpink;
 
     font-family: Monoton;
-    font-size: 60px;
+    font-size: 5vw;
     --interval: 1.5s;
     display: block;
     text-shadow: 0 0 8px var(--color1),
@@ -42,24 +42,21 @@ a {
 }
 
 
-@media (min-width: 1080px) {
-    a{
-        left: 50%;
-        font-size: 4em;
-    }
-}
-@media (min-width: 768px)and(max-width: 1080px) {
-    a{
-        left: 65%;
-        font-size: 3em;
-    }
-}
-@media (max-width: 768px) {
-    a{
-        left: 76%;
-        font-size: 2em;
-    }
-}
+/*@media (min-width: 1080px) {*/
+/*    a{*/
+/*        font-size: 4em;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 768px)and(max-width: 1080px) {*/
+/*    a{*/
+/*        font-size: 3em;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 768px) {*/
+/*    a{*/
+/*        font-size: 2em;*/
+/*    }*/
+/*}*/
 
 
 @keyframes flicker {
