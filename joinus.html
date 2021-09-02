@@ -20,10 +20,11 @@
     <script src="JS/slogan.js"></script>
 
     <style>
-        body{
-            min-width: 663px;
+        body {
+            min-width: 768px;
             background: mintcream;
         }
+
         .item0 {
             grid-area: 1/1/3/5;
             background-color: black;
@@ -127,6 +128,7 @@
 
 <div class="zhaoshou">
     <div class="shutter" style="margin-bottom: 40px;">
+        <!--        大小在body末尾处修改-->
         <div class="shutter-img">
             <a href="#" data-shutter-title="团建"><img src="Picture/bgpic.jpeg" alt="#"></a>
             <a href="#" data-shutter-title="2021"><img src="Picture/合影2021.jpg" alt="#"></a>
@@ -201,10 +203,10 @@
 <script>
     $(function () {
         $('.shutter').shutter({
-            shutterW: 600, // 容器宽度
+            shutterW: 600, // 容器宽度(px)
             shutterH: 380, // 容器高度
             isAutoPlay: true, // 是否自动播放
-            playInterval: 3000, // 自动播放时间
+            playInterval: 3000, // 自动播放时间(ms)
             curDisplay: 1, // 当前显示页
             fullPage: false // 是否全屏展示
         });

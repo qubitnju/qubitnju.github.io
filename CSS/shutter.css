@@ -1,6 +1,6 @@
 ul, li { list-style: none; }
 
-.shutter {
+div.shutter {
   overflow: hidden;
   width: 600px;
   height: 358px;
