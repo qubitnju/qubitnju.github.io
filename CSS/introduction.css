@@ -78,10 +78,10 @@ div.gridcontainer {
 
 
 div#jianjie {
-    width: 80%;
+    width: 85%;
     background: white;
     margin: auto;
-    /*border: 2px double lightseagreen;*/
+    border: 2px solid seagreen;
 }
 
 
