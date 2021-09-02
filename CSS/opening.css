@@ -42,17 +42,22 @@ a {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
     a{
         left: 50%;
-        font-size: 66px;
+        font-size: 4em;
     }
 }
-
+@media (min-width: 768px)and(max-width: 1080px) {
+    a{
+        left: 65%;
+        font-size: 3em;
+    }
+}
 @media (max-width: 768px) {
     a{
-        left: 83%;
-        font-size: 30px;
+        left: 76%;
+        font-size: 2em;
     }
 }
 
