@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------
     MOD: TIMELINE CENTERED
 ----------------------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 0px) {
     .timeline-centered,
     .timeline-centered .timeline-item,
     .timeline-centered .timeline-info,
