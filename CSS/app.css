@@ -36,15 +36,16 @@ section.app {
 #app {
     display: grid;
     grid-template-columns: 400px;
-    /*grid-template-rows: 600px;*/
-    grid-template-rows: auto;
+    grid-template-rows: 600px;
+    /*grid-template-rows: auto;*/
     /* height: 40vmin;
     width: 50vmin; */
     place-content: center;
 }
 
 #app > section {
-    margin: 5vmin 8vmin;
+    margin: 20px 0;
+    padding: 0 50px;
     grid-area: 1 / 1;
 }
 

@@ -187,7 +187,7 @@ div#sec6 {
 }
 
 img.sec6 {
-    width: 240px;
+    width: 260px;
     height: 180px;
     padding-top: 20px;
     margin-left: auto;
@@ -196,7 +196,7 @@ img.sec6 {
 
 section.content article h1 {
     /*text-indent: 10px;*/
-    padding-left: 10px;
+    padding-left: 20px;
     /*padding-right: 10px;*/
 
 }
