@@ -103,27 +103,27 @@ div.description{
 }
 
 
-.timeline .column .description a {
-    font-size: 13pt;
-    line-height: 1.5;
-    font-family: serif;
-    text-decoration: none;
-    color: #496aff;
-}
-
-.timeline .column .description a:hover{
-    color: #a9a6ff;
-}
-
-
 .timeline .column .description {
     border-left: 1px solid #000;
+}
+
+.timeline .column .description a {
+    font-size: 13pt;
+    line-height: 1.6;
+    font-family: serif;
+    text-decoration: none;
+    /*color: #496aff;*/
+    color: #346dff;
+}
+
+.timeline .column .description a.content:hover{
+    color: #a9a6ff;
 }
 
 
 .timeline .column .description a p{
     margin-left: 5px;
-    text-indent: 2em;
+    /*text-indent: 2em;*/
 }
 
 
