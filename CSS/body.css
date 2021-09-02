@@ -211,8 +211,15 @@ section.content article p {
 a.bottom {
     color: whitesmoke;
     text-decoration: none;
+    font-size: large;
 }
 
 a.bottom:hover {
     color: aquamarine;
+}
+
+p.bottom{
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    color: whitesmoke;
 }
