@@ -98,6 +98,18 @@ div#jianjieneirong {
     text-align: justify;
 }
 
+video{
+    margin: auto;
+    padding:50px 5%;
+    object-fit: fill;
+    border: 2px dashed lightblue;
+    border-radius: 5px;
+}
+video:hover{
+    border: None;
+}
+
+
 div.time {
     width: 100%;
     text-align: center;
