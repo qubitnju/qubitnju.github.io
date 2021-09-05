@@ -97,6 +97,10 @@ li {
     position: relative;
     z-index: 999;
 }
+.mouse-follow-nav .nav-list li a:hover{
+    color: #CCCCCC;
+}
+
 
 /*滑块*/
 .mouse-follow-nav .sliding-block {
