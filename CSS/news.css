@@ -51,8 +51,6 @@ div.gridcontainer {
 }
 
 
-
-
 .timeline {
     padding: 40px 0px;
     width: 80%;
@@ -74,14 +72,16 @@ div.gridcontainer {
     margin: 40px 40px 40px 120px;
 }
 
-.timeline .column .title h1 {
+/*.timeline .column .title h1 {*/
+.title h1 {
     font-size: 120px;
-    color: rgba(0,0,0,0.1);
+    color: rgba(0, 0, 0, 0.1);
     font-family: serif;
     letter-spacing: 3px;
 }
 
-.timeline .column .title h1:before {
+/*.timeline .column .title h1:before {*/
+.title h1:before {
     content: "";
     position: absolute;
     left: -62px;
@@ -92,24 +92,24 @@ div.gridcontainer {
     border: 3px solid #c0392b;
 }
 
-.timeline .column .title h2 {
+/*.timeline .column .title h2 {*/
+.title h2,
+a.hide_title {
     margin-top: -60px;
     font-size: 33px;
 }
 
-
-
-div.description{
-    /*max-height: 200px;*/
-    /*overflow: auto;*/
+a.hide_title {
+    color: black;
+    text-decoration: none;
 }
 
 
-.timeline .column .description {
+.description {
     border-left: 1px solid #000;
 }
 
-.timeline .column .description a {
+.description a {
     font-size: 13pt;
     line-height: 1.6;
     font-family: serif;
@@ -118,14 +118,46 @@ div.description{
     color: #1958cc;
 }
 
-.timeline .column .description a.content:hover{
+.description a.content:hover {
     color: #a9a6ff;
 }
 
 
-.timeline .column .description a p{
+.description a p {
     margin-left: 5px;
     /*text-indent: 2em;*/
 }
 
 
+/*Hide Text Css*/
+
+.collapse {
+    display: none;
+}
+
+.collapse.in {
+    display: block;
+}
+
+tr.collapse.in {
+    display: table-row;
+}
+
+tbody.collapse.in {
+    display: table-row-group;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility
+}
